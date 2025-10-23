@@ -19,7 +19,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:3000",
-      "https://assignment2-umber-ten.vercel.app", // domain frontend deploy trên Vercel
+      "https://assignment3-sdn.vercel.app", // domain frontend deploy trên Vercel
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
