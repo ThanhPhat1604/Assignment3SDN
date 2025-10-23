@@ -1,0 +1,34 @@
+# =========================
+# Node.js / Express backend
+# =========================
+
+# Node modules
+/node_modules/
+
+# Build output (nếu dùng TypeScript hoặc build tool)
+/dist/
+/build/
+/. cache/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+*.log
+
+# Environment files
+# Giữ lại .env để thầy xem nên KHÔNG ignore
+# .env
+
+# System files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary files
+*.swp
+*.swo
+
+# Jest / test outputs (nếu có)
+coverage/
